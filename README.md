@@ -9,7 +9,7 @@ a simple pinch zoom in & zoom out image view.
 ![Release](https://img.shields.io/badge/release-0.0.1-green.svg)
 [![Jitpack](https://jitpack.io/v/metagalactic/ScalableImageView.svg)](https://jitpack.io/#metagalactic/ScalableImageView)
 [![Build Status](https://travis-ci.org/metagalactic/ScalableImageView.svg?branch=master)](https://github.com/metagalactic/ScalableImageView)
-
+[![CircleCI](https://circleci.com/gh/metagalactic/ScalableImageView.svg?style=svg)](https://circleci.com/gh/metagalactic/ScalableImageView)
 
 ### Install
 
