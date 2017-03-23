@@ -95,7 +95,7 @@ subprojects {
         effort = "max"
         reportLevel = "high"
         excludeFilter = rootProject.file('config/findbugs/findbugs.xml')
-        classes = files("${project.rootDir}/sample/build/intermediates/classes")
+        classes = files("${project.rootDir}/scalableimageview/build/intermediates/classes")
 
         source = fileTree('src/main/java')
         source 'src'

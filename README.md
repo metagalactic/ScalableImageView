@@ -2,8 +2,6 @@
 
 a simple pinch zoom in / out for image view. 
 
-# CoachMarks
-
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 ![SDK](https://img.shields.io/badge/SDK-16%2B-green.svg)
 ![Release](https://img.shields.io/badge/release-0.0.1-green.svg)
