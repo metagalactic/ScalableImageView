@@ -2,6 +2,35 @@
 
 a simple pinch zoom in & zoom out image view. 
 
+# CoachMarks
+
+[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
+![SDK](https://img.shields.io/badge/SDK-16%2B-green.svg)
+![Release](https://img.shields.io/badge/release-0.0.1-green.svg)
+
+### Install
+
+Add jitpack to your root `build.gradle`
+```
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+	
+Add the dependency
+```
+	dependencies {
+	        compile 'com.github.metagalactic:ScalableImageView:0.0.1'
+	}
+```
+
+### Screenshots
+
+![pinch zoom](screenshots/demo.gif)
+
 
 License
 -------
