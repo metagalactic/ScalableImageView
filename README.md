@@ -1,6 +1,6 @@
 # Scalable Image View
 
-a simple pinch zoom in & zoom out image view. 
+a simple pinch zoom in / out for image view. 
 
 # CoachMarks
 
