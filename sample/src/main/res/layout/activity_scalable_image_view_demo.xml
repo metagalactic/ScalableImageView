@@ -7,6 +7,8 @@
         android:id="@+id/scalable_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@null" />
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:focusableInTouchMode="true" />
 
 </FrameLayout>
