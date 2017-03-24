@@ -169,6 +169,7 @@ public class ScalableImageView extends AppCompatImageView {
                     if (!mIsMultiPointerEventSeries &&
                             Float.compare(diff.length(), mTouchSlop) > 0) {
                         requestAllowParentIntercept = true;
+                        mIsMultiPointerEventSeries = false;
                     }
                 }
                 mPreviousCoordinates.x = event.getX();
