@@ -12,7 +12,7 @@ android {
         targetSdkVersion versions.targetSdk
 
         versionCode 1
-        versionName "0.0.4"
+        versionName "0.0.5"
     }
 
     buildTypes {
@@ -37,6 +37,12 @@ dependencies {
     //ANNOTATION
     compile libraries.jsr305
     compile libraries.javaxAnnotationApi
+
+    //IMAGE PROCESSING
+    compile libraries.glide
+    compile(libraries.glideOkHttp) {
+        exclude group: 'glide-parent'
+    }
 
     //TESTING
     testCompile libraries.junit

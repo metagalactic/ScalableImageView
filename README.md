@@ -4,7 +4,7 @@ a simple pinch zoom in / out for image view.
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 ![SDK](https://img.shields.io/badge/SDK-16%2B-green.svg)
-![Release](https://img.shields.io/badge/release-0.0.4-green.svg)
+![Release](https://img.shields.io/badge/release-0.0.5-green.svg)
 [![Jitpack](https://jitpack.io/v/metagalactic/ScalableImageView.svg)](https://jitpack.io/#metagalactic/ScalableImageView)
 [![Build Status](https://travis-ci.org/metagalactic/ScalableImageView.svg?branch=master)](https://github.com/metagalactic/ScalableImageView)
 [![CircleCI](https://circleci.com/gh/metagalactic/ScalableImageView.svg?style=svg)](https://circleci.com/gh/metagalactic/ScalableImageView)
@@ -24,7 +24,7 @@ Add jitpack to your root `build.gradle`
 Add the dependency
 ```
 	dependencies {
-	        compile 'com.github.metagalactic:ScalableImageView:0.0.4'
+	        compile 'com.github.metagalactic:ScalableImageView:0.0.5'
 	}
 ```
 

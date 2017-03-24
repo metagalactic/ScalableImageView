@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <com.github.metagalactic.views.ScalableImageView
+        android:id="@+id/scalable_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@null"
-        android:src="@drawable/breakingbad" />
+        android:contentDescription="@null" />
 
 </FrameLayout>
