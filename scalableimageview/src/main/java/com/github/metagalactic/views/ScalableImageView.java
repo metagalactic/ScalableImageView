@@ -116,7 +116,7 @@ public class ScalableImageView extends AppCompatImageView {
                     // If at any point in this series of events we have more than one pointer, we'll
                     // update this flag to indicate that
                     // (a) we should not allow parent intercepts at any point during the series
-                    // (b) we should treat any event as handledif was not otherwise handled to prevent strange "click" behavior.
+                    // (b) we should treat any event as handled if was not otherwise handled to prevent strange "click" behavior.
                     mIsMultiPointerEventSeries = true;
                 }
 
@@ -177,7 +177,7 @@ public class ScalableImageView extends AppCompatImageView {
             case MotionEvent.ACTION_CANCEL:
             case MotionEvent.ACTION_UP:
                 mLastPointerId = NO_POINTER;
-                mIsMultiPointerEventSeries = false;
+                //mIsMultiPointerEventSeries = false;
                 if (hasScaled() || hasAttemptedPan() || hasAttemptedScale()) {
                     handled = true;
                 }
